@@ -174,10 +174,6 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     android.hardware.renderscript@1.0-impl
 
-# Doze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # DPM
 PRODUCT_PACKAGES += \
     libcutils_shim
