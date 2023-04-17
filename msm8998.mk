@@ -432,3 +432,7 @@ $(call inherit-product, vendor/xiaomi/msm8998-common/msm8998-common-vendor.mk)
 
 # Dolby
 $(call inherit-product-if-exists, vendor/motorola/dolby/dolby-vendor.mk)
+
+# PixelLauncherExtended
+PIXEL_LAUNCHER_VARIANT := glance22
+$(call inherit-product-if-exists, vendor/PixelLauncherExtended/PixelLauncher.mk)
