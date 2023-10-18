@@ -152,6 +152,12 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/devices/soc/soc:fingerprint_fpc*        vendor             0700  system system
 /dev/goodix_fp            0660   system     system
 
+# Hid
+/dev/hidg0             0660   system       system
+
+# Okcar
+/dev/okcar             0660   system       system
+
 # /dev/sensors only supports an ioctl to get the current SLPI timestamp
 # allow the sensors daemon to perform this as non-root
 /dev/sensors              0660   root       system
