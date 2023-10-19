@@ -423,6 +423,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     wifi-mac-generator
 
+# Netflix
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.netflix.channel=497730f0-ad4b-11e7-95a4-c7ad113ce187 \
+    ro.netflix.signup=1
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
